@@ -1,3 +1,6 @@
 .venv
 bot.json
 .vscode
+Brofinder.session
+Brofinder.session-journal
+**/__pycache__

@@ -36,7 +36,7 @@ class StartHandler(Message):
         ]
         
         if user.role == UserRole.ADMIN.value:
-            keyboad.append([{"text" : "⚙️ Amministrazione Bot", "callback_data" : "adm_settings"}])
+            keyboad.insert(3, [{"text" : "⚙️ Amministrazione Bot", "callback_data" : "adm_settings"}])
 
         user_name = message.from_user.first_name
         await message.reply(
