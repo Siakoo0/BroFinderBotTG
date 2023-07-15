@@ -1,0 +1,11 @@
+[Unit]
+Description=TG Bot Service
+
+[Service]
+User=1000
+WorkingDirectory=/home/siakoo/Desktop/BroFinderBot
+ExecStart=python3 -m main
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
